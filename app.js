@@ -1,8 +1,9 @@
 var express = require('express');
 var app = new express();
 var router = express.Router()
+PORT = process.env.PORT || 3000
 
-app.listen(4000, ()=>{
+app.listen(PORT, ()=>{
     console.log('Server listening at 4000');
 })
 
